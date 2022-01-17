@@ -8,7 +8,7 @@ const route = require('./routes');
 
 // Http Logger
     app.use(express.static(path.join(__dirname, 'public')));
-  app.use(morgan('combined'));
+    app.use(morgan('combined'));
 
 // set body from form data
       app.use(
